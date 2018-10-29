@@ -1,11 +1,20 @@
-const jsonServer = require('json-server');
-const server = jsonServer.create();
-const router = jsonServer.router('db.json');
-const middlewares = jsonServer.defaults();
-const port = process.env.PORT || 8888;
+const express = require("express");
+const app = express();
+const bodyParser = require("body-parser");
+const path = require("path");
 
-server.use('/api',router);
-server.use(middlewares);
-server.listen(port, () => {
-    console.log('JSON server is running');
+app.use(express.static(path.join(__dirname, "build")));
+
+app.use(bodyParser.json());
+
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname,"build/index.html"));
+});
+
+
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => {
+    console.log("Listening port", port);
 });
