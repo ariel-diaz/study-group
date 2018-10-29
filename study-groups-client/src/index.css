@@ -1,0 +1,37 @@
+html, body, #root {
+  font-family: Akkurat Std, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+  Oxygen, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0;
+  line-height: 2rem;
+  background: rgb(249, 249, 251);
+  font-size: 1rem;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #663dbc;
+}
+
+div[data-evergreen-toaster-container] .css-nil {
+  display: flex;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "study-groups",
+  "version": "1.0.0",
+  "description": "App de Grupo de Estudios para Hackatrix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd study-groups-server && npm install && npm run start",
+    "heroku-postbuild": "cd study-groups-client && npm install && npm run build"
+    
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,119 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Gonzalo Pozzo",
+      "email": "gonzalo.pozzo4@gmail.com",
+      "password": "admin",
+      "university": "UBA",
+      "career": "Diseño gráfico",
+      "avatar": "//placehold.it/256/256"
+    }
+  ],
+  "universities": [
+    {
+      "id": "UBA",
+      "assignments": [
+        "Historia del arte",
+        "Ilustración 1",
+        "Análisis matematico",
+        "Álgebra",
+        "Física",
+        "Química",
+        "Semiologia"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": 0,
+      "owner": 0,
+      "description": "",
+      "title": "Parcial 3/11 Marroni",
+      "datetime": "01/01/2018 00:00",
+      "university": "UBA",
+      "assignment": "Historia del arte",
+      "professor": "Marroni",
+      "limit": 5,
+      "participants": [
+        0
+      ],
+      "location": "Caseros 754, Bernal"
+    },
+    {
+      "id": 1,
+      "owner": 0,
+      "description": "Integrales",
+      "title": "Parcial 3/11 Marroni",
+      "datetime": "01/01/2018 00:00",
+      "university": "UBA",
+      "assignment": "Análisis Matemático",
+      "professor": "Soria",
+      "limit": 3,
+      "participants": [
+        1,2,3
+      ],
+      "location": "Alem 321, CABA"
+    },
+    {
+      "id": 2,
+      "owner": 0,
+      "description": "Trigonometria",
+      "title": "Parcial 5/11 Marroni",
+      "datetime": "01/01/2018 00:00",
+      "university": "UBA",
+      "assignment": "Álgebra",
+      "professor": "Perez",
+      "limit": 4,
+      "participants": [
+        1,2,7
+      ],
+      "location": "Alem 435, CABA"
+    },
+    {
+      "id": 3,
+      "owner": 0,
+      "description": "Arte moderno",
+      "title": "Parcial 8/11 Lanchoni",
+      "datetime": "01/01/2018 3:00",
+      "university": "UBA",
+      "assignment": "Historia del arte",
+      "professor": "Lanchoni",
+      "limit": 6,
+      "participants": [
+        1,2,7,3
+      ],
+      "location": "Alem 435, CABA"
+    },
+    {
+      "id": 4,
+      "owner": 0,
+      "description": "Renacimiento",
+      "title": "Parcial 9/11 Lopez",
+      "datetime": "01/01/2018 3:00",
+      "university": "UBA",
+      "assignment": "Historia del arte",
+      "professor": "Lopez",
+      "limit": 6,
+      "participants": [
+        1,2,7,3
+      ],
+      "location": "Alem 435, CABA"
+    },
+    {
+      "id": 5,
+      "owner": 0,
+      "description": "Benedictino",
+      "title": "Parcial 21/11 Lopez",
+      "datetime": "01/01/2018 3:00",
+      "university": "UBA",
+      "assignment": "Historia del arte",
+      "professor": "Barretta",
+      "limit": 7,
+      "participants": [
+        1,2,3
+      ],
+      "location": "Alem 435, CABA"
+    }
+  ]
+}
