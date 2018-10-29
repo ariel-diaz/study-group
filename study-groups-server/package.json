@@ -2,9 +2,9 @@
   "name": "study-groups",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server db.json --port=8888"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
