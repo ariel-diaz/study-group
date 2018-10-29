@@ -11,7 +11,7 @@ const users = new mongoose.Schema({
     avatar: String
 });
 
-export const universities = new mongoose.Schema({
+const universities = new mongoose.Schema({
     id: String,
     assignments: []
 });

@@ -1,10 +1,18 @@
 import axios from "axios";
 
-const URL = "/api/users";
+const URL = "/api/login";
 
 export default {
   login: ({email, password}) =>
-    axios(`${URL}?password_like=${password}&email_like=${email}`).then(res => res.data[0]),
+    axios(`${URL}`, {
+      params: {
+        email,
+        password
+      }
+    })
+    .then(res => {
+      console.log(res);
+    }),
   update: data =>
     axios({
       data,

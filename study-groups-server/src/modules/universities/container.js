@@ -9,6 +9,7 @@ export default class UniversityContainer extends Container {
 
   async fetch() {
     const list = await api.fetch();
+    console.log(list);
     this.setState({list});
   }
 }

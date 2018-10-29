@@ -48,9 +48,10 @@ class Search extends Component {
         <Pane background="#192a3a" paddingY="30px">
           <Container>
             <Pane display="flex" justifyContent="center">
-              <Combobox
+            {universities}
+              {/* <Combobox
                 height={40}
-                items={universities.map(u => u.id)}
+                items={universities.map(u => u.description)}
                 placeholder="Universidad"
                 selectedItem={university}
                 onChange={this.handleUniversityChange}
@@ -62,7 +63,7 @@ class Search extends Component {
                 placeholder="Materia"
                 selectedItem={assignment}
                 onChange={this.handleAssignmentChange}
-              />
+              /> */}
             </Pane>
           </Container>
         </Pane>
