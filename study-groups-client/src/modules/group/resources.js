@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "/groups";
+const URL = "/api/groups";
 
 export default {
   search: (university, assignment) =>
